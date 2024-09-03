@@ -1,0 +1,90 @@
+body {
+    background-color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    font-size: 1.25vw;
+}
+
+#logo {
+    margin: 0px;
+    padding: 2px;
+    color: rgb(133, 133, 9);
+    font-family: "Fredoka One", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+#nav-ul > li {
+    padding: 5px;
+    margin: 5px;
+}
+
+.navbutton {
+    color: rgb(133, 133, 9);
+    text-decoration: none;
+    padding: 6px;
+    border: 1px solid rgb(133, 133, 9);
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+body > footer {
+    background-color: aqua;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-ul {
+    display: flex;
+    padding: 3px;
+    border: 3px solid rgb(133, 133, 9);
+}
+
+#footer-ul > div > li {
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(133, 133, 9);
+}
+
+/* use class selection when dealing with multiple wraps of the same type: class="" in CSS it becomes ."name". Use ID selector with ID that should be unique. Remember to define ID and class in the html file in CSS it becomes #"name". Child selectors are ">" and are very specific.*/
+
+/* block tags take up entire width of screen. Anchor, links and block quotes need in-line tags. In-line tags increase accessibility which makes it easier to click links. */
