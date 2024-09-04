@@ -7,13 +7,31 @@ body {
 
 #logo {
     margin: 0px;
-    padding: 2px;
+    padding: 15px;
     color: rgb(133, 133, 9);
     font-family: "Fredoka One", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
 }
 
 ul {
+    margin-left: -40px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.8vw;
+}
+
+#second-section {
+    font-size: 0.8vw;
     margin: 0px;
+    padding: 15px;
+    list-style-type: disc;
+    text-decoration-line: underline;
+}
+
+#header-two {
+    font-size: 1.25vw;
 }
 
 body > header {
@@ -30,6 +48,7 @@ body > header {
 body > header > nav > ul {
     list-style: none;
     text-decoration: none;
+    font-size: 1vw;
 }
 
 #nav-ul > li {
@@ -63,7 +82,7 @@ h2 {
 }
 
 #main-content > div {
-    width: 80%;
+    width: 8000px;
 }
 
 body > footer {
