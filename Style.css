@@ -24,7 +24,7 @@ ul {
 
 #second-section {
     font-size: 0.8vw;
-    margin: 0px;
+    margin-top: 50px;
     padding: 15px;
     list-style-type: disc;
     text-decoration-line: underline;
@@ -43,12 +43,16 @@ ul {
 #geological-timescale-image {
     float: right;
     margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 100px;
     font-size: small;
 }
 
 #paragraph1 {
+    display: flex;
     margin: 0px;
     padding-right: 0px;
+    margin-right: 0px;
 }
 
 body > header {
@@ -56,6 +60,7 @@ body > header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px;
 }
 
 #nav-ul {
@@ -81,7 +86,7 @@ body > header > nav > ul {
 }
 
 body > main article {
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
