@@ -134,6 +134,17 @@ body > footer {
     color: rgb(133, 133, 9);
 }
 
+@media (max-width: 1000px) {
+    #form-container {
+        width: 100%;
+        padding: 50%;
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+}
+
 /* use class selection when dealing with multiple wraps of the same type: class="" in CSS it becomes ."name". Use ID selector with ID that should be unique. Remember to define ID and class in the html file in CSS it becomes #"name". Child selectors are ">" and are very specific.*/
 
 /* block tags take up entire width of screen. Anchor, links and block quotes need in-line tags. In-line tags increase accessibility which makes it easier to click links. */
