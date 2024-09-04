@@ -42,13 +42,13 @@ ul {
 
 #geological-timescale-image {
     float: right;
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
-    margin-top: 4%;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 4%;
-    font-size: small;
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    font-size: 1vw;
 }
 
 #paragraph1 {
