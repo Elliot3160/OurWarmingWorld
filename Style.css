@@ -34,6 +34,23 @@ ul {
     font-size: 1.25vw;
 }
 
+#first-article {
+    margin-left: 70px;
+    margin-right: 5px;
+    padding: 0px;
+}
+
+#geological-timescale-image {
+    float: right;
+    margin-left: 0px;
+    font-size: small;
+}
+
+#paragraph1 {
+    margin: 0px;
+    padding-right: 0px;
+}
+
 body > header {
     background-color: aqua;
     display: flex;
@@ -64,7 +81,7 @@ body > header > nav > ul {
 }
 
 body > main article {
-    width: 70%;
+    width: 50%;
     margin: auto;
 }
 
@@ -79,6 +96,11 @@ h2 {
 #main-content {
     display: flex;
     justify-content: space-around;
+}
+
+#main-div {
+    width: 100px;
+    padding: 0px;
 }
 
 #main-content > div {
