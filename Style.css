@@ -42,9 +42,12 @@ ul {
 
 #geological-timescale-image {
     float: right;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 100px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
     font-size: small;
 }
 
