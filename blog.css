@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    background-color: #C8102E; /* Burgundy */
+    background-color: crimson; /* Burgundy */
     max-width: 800px; /* Limits width */
     padding: 20px 0; /* Top and bottom padding */
     margin: 0 auto; /* Centers the header */
