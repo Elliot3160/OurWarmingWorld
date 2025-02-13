@@ -36,7 +36,7 @@ body {
   display: flex;
   justify-content: center; /* Centers the links under the title */
   max-width: 800px;
-  margin: 5px auto 0; /* Centers and adds margin on top */
+  margin: 10px auto 0; /* Centers and adds margin on top */
   padding: 15px;
   gap: 20px; /* Adds spacing between links */
   list-style: none;
@@ -63,7 +63,8 @@ body {
   display: block;
   margin: auto;
   width: 100%; /* Makes image responsive */
-  max-width: 400px; /* Limits max width */
+  max-width: 100%; /* Limits max width */
+  height: auto;
   border-radius: 10px; /* Rounds corners */
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Adds shadow */
 }
