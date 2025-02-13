@@ -35,10 +35,10 @@ body {
 .list {
   display: flex;
   justify-content: center; /* Centers the links under the title */
-  max-width: 800px;
+  max-width: 100%;
   margin: 5px auto 0; /* Centers and adds margin on top */
   padding: 15px;
-  gap: 90px;
+  gap: 50px;
   list-style: none;
   box-shadow: 3px 3px 8px crimson;
 }
